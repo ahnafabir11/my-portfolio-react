@@ -1,0 +1,10 @@
+.AboutMe {
+  width: 1100px;
+  border: 1px solid white;
+  color: white;
+}
+
+.about_info_container{
+  display: flex;
+  justify-content: space-between;
+}

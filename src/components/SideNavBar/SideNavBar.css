@@ -1,0 +1,61 @@
+.SideNavBar {
+  text-align: center;
+  width: 280px;
+  min-height: 100vh;
+  background: black;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.photo_section {
+  width: 150px;
+  height: 150px;
+  border: 7px solid orange;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 50px auto 10px auto;
+}
+
+.sideNav_photo {
+  width: 100%;
+}
+
+.sideNav_links_container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: space-between;
+}
+
+.link_text {
+  color: white;
+  font-size: 20px;
+}
+
+.link_text:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.active_link_text {
+  color: orange;
+  border-right: 3px solid orange;
+}
+
+.social_links {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.social_icons {
+  font-size: 30px;
+  color: orange;
+}
+
+.social_icons:hover {
+  color: orange;
+}
