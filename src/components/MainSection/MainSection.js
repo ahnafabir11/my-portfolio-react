@@ -6,6 +6,7 @@ import AboutMe from '../AboutMe/AboutMe';
 import Skills from '../Skills/Skills';
 import Projects from '../Projects/Projects';
 import Blogs from '../Blogs/Blogs';
+import Contact from '../Contact/Contact';
 
 const MainSection = () => {
   return (
@@ -27,7 +28,7 @@ const MainSection = () => {
           <Blogs/>
         </Route>
         <Route exact path="/contact">
-          <h1>Contact Me</h1>
+          <Contact/>
         </Route>
       </Switch>
     </div>
