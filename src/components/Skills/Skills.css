@@ -1,0 +1,14 @@
+.Skills {
+  color: white;
+  width: 700px;
+}
+
+.skills_container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-bar {
+  width: fit-content !important;
+  background-color: unset !important;
+}

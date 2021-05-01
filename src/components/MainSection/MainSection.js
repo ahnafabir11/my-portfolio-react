@@ -3,6 +3,9 @@ import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 import Home from '../Home/Home';
 import AboutMe from '../AboutMe/AboutMe';
+import Skills from '../Skills/Skills';
+import Projects from '../Projects/Projects';
+import Blogs from '../Blogs/Blogs';
 
 const MainSection = () => {
   return (
@@ -15,13 +18,13 @@ const MainSection = () => {
           <AboutMe/>
         </Route>
         <Route exact path="/skills">
-          <h1>Skills</h1>
+          <Skills/>
         </Route>
         <Route exact path="/projects">
-          <h1>Projects</h1>
+          <Projects/>
         </Route>
         <Route exact path="/blogs">
-          <h1>Blogs</h1>
+          <Blogs/>
         </Route>
         <Route exact path="/contact">
           <h1>Contact Me</h1>

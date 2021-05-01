@@ -14,12 +14,14 @@ const AboutMe = () => {
               <p><span className="text-secondary">Full Name:</span> Md. Ahnaf Abir</p>
               <p><span className="text-secondary">Address:</span> Chattogram</p>
               <p><span className="text-secondary">Nationality:</span> Bangladeshi</p>
+              <p><span className="text-secondary">Intern:</span> Not Yet</p>
               <p><span className="text-secondary">Remote Work:</span> Open To Work</p>
             </div>
             <div>
+              <p><span className="text-secondary">Full Time Work:</span> Open To Work</p>
               <p><span className="text-secondary">Language:</span> Bangla, English, Hindi</p>
-              <p><span className="text-secondary">Intern:</span> Not Yet</p>
-              <p><span className="text-secondary">Phone:</span> +8801775390977</p>
+              <p><span className="text-secondary">Mobile:</span> +8801775390977</p>
+              <p><span className="text-secondary">Mobile:</span> +8801533788303</p>
               <p><span className="text-secondary">Email:</span> ahnafabir313@gmail.com</p>
             </div>
           </div>
