@@ -29,3 +29,21 @@
   text-decoration: none;
   background-color: orange;
 }
+
+@media (max-width: 650px) {
+  .home_title_text {
+    font-size: 35px;
+  }
+  .home_description {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 519px) {
+  .home_title_text {
+    font-size: 30px;
+  }
+  .home_description {
+    font-size: 18px;
+  }
+}

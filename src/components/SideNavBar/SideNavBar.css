@@ -59,3 +59,9 @@
 .social_icons:hover {
   color: orange;
 }
+
+@media (max-width: 940px) {
+  .SideNavBar{
+    display: none
+  }
+}

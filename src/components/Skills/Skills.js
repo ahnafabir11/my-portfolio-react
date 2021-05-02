@@ -63,9 +63,7 @@ const Skills = () => {
           />
           <h3 className="text-center">MONGO DB</h3>
         </div>
-      </div>
 
-      <div className="skills_container">
         <div className="single_skill">
           <ProgressBar
             trackWidth="13"
@@ -123,10 +121,7 @@ const Skills = () => {
           />
           <h3 className="text-center">EXPRESS JS</h3>
         </div>
-      </div>
-
-
-      <div className="skills_container">
+        
         <div className="single_skill">
           <ProgressBar
             trackWidth="13"

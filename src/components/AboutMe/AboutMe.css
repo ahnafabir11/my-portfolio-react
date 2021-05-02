@@ -42,3 +42,35 @@
   font-size: 40px;
   border-bottom: 3px solid white;
 }
+
+@media (max-width: 1389px) {
+  .experience_box {
+    width: 220px;
+  }
+}
+
+@media (max-width: 1278px) {
+  .experience_box {
+    width: 300px;
+    margin: 0 10px 10px 10px;
+  }
+  .about_info_container {
+    flex-direction: column;
+  }
+  .personal_info {
+    margin-right: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 959px) {
+  .experience_box {
+    width: 280px;
+  }
+}
+
+@media (max-width: 639px) {
+  .experience_box {
+    width: 100%;
+  }
+}

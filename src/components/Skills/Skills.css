@@ -3,12 +3,32 @@
   width: 700px;
 }
 
-.skills_container{
-  display: flex;
-  justify-content: space-between;
+.skills_container {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
 
 .progress-bar {
   width: fit-content !important;
   background-color: unset !important;
+  margin: 0 auto;
+}
+
+@media (max-width: 1019px) {
+  .Skills {
+    width: 600px;
+  }
+}
+
+@media (max-width: 639px) {
+  .Skills {
+    max-width: 100%;
+  }
+  .skills_container {
+    width: 100%;
+    grid-template-columns: auto auto;
+  }
+  .skills_container {
+    width: 100%;
+  }
 }
