@@ -61,7 +61,22 @@
 }
 
 @media (max-width: 940px) {
-  .SideNavBar{
-    display: none
+  .SideNavBar {
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+  }
+  .photo_section {
+    width: 120px;
+    height: 120px;
+  }
+  .social_links {
+    width: fit-content;
+  }
+}
+
+@media (max-height: 600px) {
+  .sideNav_links_container{
+    height: unset
   }
 }

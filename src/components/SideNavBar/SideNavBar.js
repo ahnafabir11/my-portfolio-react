@@ -6,11 +6,15 @@ import { FaGithubSquare } from "react-icons/fa";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaTwitterSquare } from "react-icons/fa";
 import ahnafAbirPhoto from '../../images/ahnaf-abir-photo.jpg';
+import { useContext } from 'react';
+import { TopNavActive } from '../../App';
 
 
 const SideNavBar = () => {
+  const [isNavActive, setIsNavActive] = useContext(TopNavActive);
+
   return (
-    <section className="SideNavBar">
+    <section className="SideNavBar" style={isNavActive ? { left: '-100%' } : { left: '0%' }}>
       
       <div className="photo_name">
         <div className="photo_section">
@@ -24,12 +28,12 @@ const SideNavBar = () => {
       </div>
       
       <div className="sideNav_links_container">
-        <NavLink exact to="/" className="link_text" activeClassName="active_link_text">Home</NavLink>
-        <NavLink exact to="/about" className="link_text" activeClassName="active_link_text">About Me</NavLink>
-        <NavLink exact to="/skills" className="link_text" activeClassName="active_link_text">Skills</NavLink>
-        <NavLink exact to="/projects" className="link_text" activeClassName="active_link_text">Projects</NavLink>
-        <NavLink exact to="/blogs" className="link_text" activeClassName="active_link_text">Blogs</NavLink>
-        <NavLink exact to="/contact" className="link_text" activeClassName="active_link_text">Contact Me</NavLink>
+        <NavLink exact to="/" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>Home</NavLink>
+        <NavLink exact to="/about" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>About Me</NavLink>
+        <NavLink exact to="/skills" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>Skills</NavLink>
+        <NavLink exact to="/projects" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>Projects</NavLink>
+        <NavLink exact to="/blogs" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>Blogs</NavLink>
+        <NavLink exact to="/contact" className="link_text" activeClassName="active_link_text" onClick={()=> setIsNavActive(!isNavActive)}>Contact Me</NavLink>
       </div>
       
       <div className="social_links">
