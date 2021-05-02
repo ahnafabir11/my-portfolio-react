@@ -5,12 +5,11 @@
 }
 
 .single_projects {
-  width: 400px;
+  max-width: 400px;
   margin: 0px 5px 25px 5px;
 }
 
 .project_img_container {
-  height: 220px;
   border: 5px solid orange;
   overflow: hidden;
   border-radius: 10px;
@@ -38,4 +37,18 @@
 .project_btn:hover {
   color: white;
   text-decoration: none;
+}
+
+@media (max-width: 1549px) {
+  .projects_container{
+    height: 700px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-width: 940px) {
+  .projects_container{
+    height: unset;
+    overflow-y: unset;
+  }
 }

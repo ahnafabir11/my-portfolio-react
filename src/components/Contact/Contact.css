@@ -71,3 +71,12 @@
   border-radius: 5px;
   padding: 5px 0px;
 }
+
+@media (max-width: 940px) {
+  .contact_container {
+    flex-direction: column;
+  }
+  .contact_details{
+    margin-bottom: 30px;
+  }
+}
