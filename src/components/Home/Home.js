@@ -28,7 +28,7 @@ const Home = () => {
       </p>
       <div>
         <Link to="/about" className="cus_btn">MORE ABOUT ME</Link>
-        <a href="/images/my-resume-30-Apr-2021.pdf" className="cus_btn" download>Resume <BsCloudDownload /></a>
+        <a href="/files/my-resume-30-Apr-2021.pdf" className="cus_btn" download>Resume <BsCloudDownload /></a>
       </div>
     </div>
   );

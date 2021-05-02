@@ -47,3 +47,12 @@
     font-size: 18px;
   }
 }
+
+@media (max-width: 400px) {
+  .home_title_text {
+    font-size: 20px;
+  }
+  .home_description {
+    font-size: 14px;
+  }
+}
