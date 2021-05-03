@@ -31,4 +31,7 @@
   .skills_container {
     width: 100%;
   }
+  .skills_title {
+    font-size: 16px;
+  }
 }

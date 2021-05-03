@@ -23,7 +23,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">REACT JS</h3>
+          <h3 className="text-center skills_title">REACT JS</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -42,7 +42,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">NODE JS</h3>
+          <h3 className="text-center skills_title">NODE JS</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -61,7 +61,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">MONGO DB</h3>
+          <h3 className="text-center skills_title">MONGO DB</h3>
         </div>
 
         <div className="single_skill">
@@ -81,7 +81,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">MONGOOSE</h3>
+          <h3 className="text-center skills_title">MONGOOSE</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -100,7 +100,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">GIT GITHUB</h3>
+          <h3 className="text-center skills_title">GIT GITHUB</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -119,7 +119,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">EXPRESS JS</h3>
+          <h3 className="text-center skills_title">EXPRESS JS</h3>
         </div>
         
         <div className="single_skill">
@@ -139,7 +139,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">HTML</h3>
+          <h3 className="text-center skills_title">HTML</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -158,7 +158,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">CSS</h3>
+          <h3 className="text-center skills_title">CSS</h3>
         </div>
         <div className="single_skill">
           <ProgressBar
@@ -177,7 +177,7 @@ const Skills = () => {
               poor: 'orange',
             }}
           />
-          <h3 className="text-center">JAVASCRIPT</h3>
+          <h3 className="text-center skills_title">JAVASCRIPT</h3>
         </div>
       </div>
     </div>
