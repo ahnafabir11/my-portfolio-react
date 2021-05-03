@@ -5,14 +5,23 @@
 }
 
 .single_projects {
+  cursor: pointer;
   max-width: 400px;
   margin: 0px 5px 25px 5px;
+}
+
+.single_projects:hover .project_btn_container {
+  padding-bottom: 20px;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.479);
+  height: 100%;
 }
 
 .project_img_container {
   border: 5px solid orange;
   overflow: hidden;
   border-radius: 10px;
+  position: relative;
 }
 
 .project_img {
@@ -20,9 +29,15 @@
 }
 
 .project_btn_container {
+  width: 100%;
   padding: 0 10px;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  align-items: flex-end;
+  transition: 0.5s;
 }
 
 .project_btn {
@@ -32,6 +47,7 @@
   background-color: orange;
   color: white;
   font-weight: bold;
+  display: block;
 }
 
 .project_btn:hover {
@@ -63,8 +79,8 @@
 
 @media (max-height: 650px) {
   .projects_container {
-    height: 100vh;
+    height: 600px;
     overflow-y: scroll;
-    margin: 20px;
+    margin: 10px;
   }
 }
