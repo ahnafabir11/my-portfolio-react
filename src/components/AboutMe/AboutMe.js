@@ -27,7 +27,7 @@ const AboutMe = () => {
           </div>
           <div>
             <Link to="/projects" className="cus_btn">Recent Projects</Link>
-            <a href="/files/my-resume-30-Apr-2021.pdf" className="cus_btn" download>Resume <BsCloudDownload /></a>
+            <a href="/files/Ahnaf-Abir-Resume.pdf" className="cus_btn" download>Resume <BsCloudDownload /></a>
           </div>
         </div>
         <div className="work_experience">

@@ -40,15 +40,31 @@
 }
 
 @media (max-width: 1549px) {
-  .projects_container{
+  .projects_container {
     height: 700px;
     overflow-y: scroll;
+  }
+  ::-webkit-scrollbar {
+    width: 5px;
+    border: 1px solid orange;
+  }
+  ::-webkit-scrollbar-thumb {
+    border-radius: 30px;
+    background-color: orange;
   }
 }
 
 @media (max-width: 940px) {
-  .projects_container{
+  .projects_container {
     height: unset;
     overflow-y: unset;
+  }
+}
+
+@media (max-height: 650px) {
+  .projects_container {
+    height: 100vh;
+    overflow-y: scroll;
+    margin: 20px;
   }
 }

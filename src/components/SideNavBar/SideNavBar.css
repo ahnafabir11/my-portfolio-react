@@ -75,7 +75,7 @@
   }
 }
 
-@media (max-height: 600px) {
+@media (max-height: 650px) {
   .sideNav_links_container{
     height: unset
   }
