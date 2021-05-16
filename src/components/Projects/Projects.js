@@ -5,7 +5,6 @@ import { FaRegEye } from 'react-icons/fa'
 import { FaCode } from 'react-icons/fa'
 
 const Projects = () => {
-  console.log(projects);
   return (
     <div className="Projects">
       <div className="projects_container">
