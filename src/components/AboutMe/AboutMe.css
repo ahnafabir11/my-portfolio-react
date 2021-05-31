@@ -43,6 +43,11 @@
   border-bottom: 3px solid white;
 }
 
+.intern_link {
+  color: orange;
+  text-decoration: underline;
+}
+
 @media (max-width: 1389px) {
   .experience_box {
     width: 220px;

@@ -14,7 +14,7 @@ const AboutMe = () => {
               <p><span className="text-secondary">Full Name:</span> Md. Ahnaf Abir</p>
               <p><span className="text-secondary">Address:</span> Chattogram</p>
               <p><span className="text-secondary">Nationality:</span> Bangladeshi</p>
-              <p><span className="text-secondary">Intern:</span> Not Yet</p>
+              <p><span className="text-secondary">Intern:</span> <a href="https://www.linkedin.com/company/qubit-capital/mycompany/" target="blank" className="intern_link">Qubit Capital</a></p>
               <p><span className="text-secondary">Remote Work:</span> Open To Work</p>
             </div>
             <div>
@@ -44,7 +44,7 @@ const AboutMe = () => {
             </div>
 
             <div className="experience_box">
-              <h1 className="exp_number">2<sup>+</sup></h1>
+              <h1 className="exp_number">1<sup>+</sup></h1>
               <p className="pl-4 mb-0">Projects <br/> On Going</p>
             </div>
 
