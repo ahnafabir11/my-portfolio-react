@@ -4,8 +4,17 @@ import projectThree from '../../images/project-3.jpg';
 import projectFour from '../../images/project-4.jpg';
 import projectFive from '../../images/project-5.jpg';
 import projectSix from '../../images/project-6.jpg';
+import projectSeven from '../../images/project-7.jpg';
 
 const projects = [
+  {
+    imgSrc: projectSeven,
+    alttext: 'social media site',
+    name: 'Media Lab',
+    language: 'React Js | Node Js | MongoDB',
+    github: 'https://github.com/ahnafabir11/media-lab-client',
+    live: 'https://media-lab-ee257.web.app/'
+  },
   {
     imgSrc: projectOne,
     alttext: 'e-commerce site',
